@@ -18,8 +18,8 @@ function [filtered, validation] = ThresholdFilter(sats, rate)
         validIdx = sats >= satsMin & sats <= satsMax & ...
                    rate >= rateMin & rate <= rateMax;
 
-        filtered.Sats = sats(validIdx);
-        filtered.Rate = rate(validIdx);
+        filtered.Sats = round(sats(validIdx));
+        filtered.Rate = round(rate(validIdx));
 
         if length(filtered.Sats) < lengthMin
             validation = 1;
