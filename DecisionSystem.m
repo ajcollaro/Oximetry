@@ -18,9 +18,9 @@ function DecisionSystem(oximetry)
     fprintf('Suggest ');
 
     if ox1Score > 0
-        fprintf('expedited treatment.\n\n');
+        fprintf('expedited PSG or treatment.\n\n');
     elseif ox1Score < 0
-        if ox1Score > 0
+        if ox2Score > 0
             fprintf('PSG.\n\n');
         else
             fprintf('monitor.\n\n');
