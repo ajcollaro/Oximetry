@@ -1,4 +1,4 @@
-# Predictive models for PulseOx-based paediatric OSA
+# Predictive models for paediatric OSA using pulse oximetry
 
 **NOT FOR CLINCAL USE**. For demonstration purposes only. Clinical use is supported through Visi-Download 2 (https://stowood.com/product/visi-download/) in an upcoming release (build date and version TBD).
 
